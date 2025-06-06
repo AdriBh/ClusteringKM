@@ -46,11 +46,16 @@ Clustering results were visualized using scatter plots for each case. Below are 
 
 ---
 
-## 📌 Observations
+## ✅ Conclusion
 
-- The highest silhouette score was achieved using **`Age` and `Gender`** (`0.5595`), indicating more distinct clusters.
-- Adding too many features did not always improve clustering quality.
-- `Spending Score` paired with `Age` or `Gender` also gave meaningful clusters.
+K-Means clustering was effective for customer segmentation. The best clustering performance was observed with:
+
+- `Annual Income` and `Spending Score` (k=5) → **Silhouette Score: 0.5595**
+- `Age` and `Gender` (k=4) → **Silhouette Score: 0.5595**
+
+These feature pairs produced the most distinct clusters and highest silhouette scores, indicating strong intra-cluster cohesion and inter-cluster separation.
+
+Other combinations yielded useful but slightly less defined clusters.
 
 ---
 
