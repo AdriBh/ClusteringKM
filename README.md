@@ -21,24 +21,24 @@ The K-Means algorithm was applied using different combinations of features. Each
 
 | Feature Combination                                       | k  | Silhouette Score |
 |-----------------------------------------------------------|----|------------------|
-| `Age`, `Gender`                                           | 5  | **0.5595**       |
+| `Age`, `Gender`                                           | 4  | **0.5595**       |
 | `Age`, `Spending Score (1–100)`                           | 5  | 0.4463           |
 | `Age`, `Annual Income (k$)`, `Spending Score (1–100)`     | 6  | 0.4235           |
 | `Gender`, `Annual Income (k$)`, `Spending Score (1–100)`  | 5  | 0.4121           |
-| `Age`, `Gender`, `Spending Score (1–100)`                 | 4  | 0.4772           |
+| `Age`, `Gender`, `Spending Score (1–100)`                 | 5  | 0.4772           |
 
 ---
 
 ## 📈 Visualizations
 
 Clustering results were visualized using scatter plots for each case. Below are some sample visual outputs:
-### 📌 Clustering with `Age`, `Gender`, `Spending Score` (k=6)
+### 📌 Clustering with `Age`, `Gender`, `Spending Score` (k=5)
 ![Age , Gender,Spending Clusters](/fig55.png)
 
 ### 📌 Clustering `Gender`,`Annual Income` and `Spending Score` (k=5)
 ![Gender,Annual Spending Score Clusters](/fig66.png)
 
-### 📌 Clustering with `Age` and  `Spending Score` (k=6)
+### 📌 Clustering with `Age` and  `Spending Score` (k=5)
 ![Age and Spending Clusters](/fig88.png)
 
 ### 📌 Clustering with `Annual Income`, `Spending Score` (k=5)
