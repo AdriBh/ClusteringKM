@@ -32,17 +32,17 @@ The K-Means algorithm was applied using different combinations of features. Each
 ## 📈 Visualizations
 
 Clustering results were visualized using scatter plots for each case. Below are some sample visual outputs:
-### 📌 Clustering with `Age` and `Gender` (k=5)
-![Age and Gender Clusters](/fig55.png)
+### 📌 Clustering with `Age`, `Gender`, `Spending Score` (k=6)
+![Age , Gender,Spending Clusters](/fig55.png)
 
-### 📌 Clustering with `Age` and `Spending Score` (k=5)
-![Age and Spending Score Clusters](/fig66.png)
+### 📌 Clustering `Gender`,`Annual Income` and `Spending Score` (k=5)
+![Gender,Annual Spending Score Clusters](/fig66.png)
 
-### 📌 Clustering with `Age`, `Annual Income`, `Spending Score` (k=6)
-![Age, Income, Spending Clusters](/fig88.png)
+### 📌 Clustering with `Age` and  `Spending Score` (k=6)
+![Age and Spending Clusters](/fig88.png)
 
-### 📌 Clustering with `Gender`, `Income`, `Spending Score` (k=5)
-![Gender, Income, Spending Clusters](/fig99.png)
+### 📌 Clustering with `Annual Income`, `Spending Score` (k=5)
+![Annual, Spending Clusters](/fig99.png)
 
 
 ---
