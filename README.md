@@ -20,14 +20,13 @@ The dataset contains the following attributes for each customer:
 The K-Means algorithm was applied using different combinations of features. Each case's clustering effectiveness was measured using the **Silhouette Score** (higher is better).
 
 | Feature Combination                                       | k  | Silhouette Score |
-|-----------------------------------------------------------|----|------------------|
-| `Age`, `Gender`                                           | 4  | **0.5595**       |
+|-----------------------------------------------------------|----|------------------|         
 | `Age`, `Spending Score (1–100)`                           | 5  | 0.4463           |
+| `Annual Income (k$)`, `Spending Score (1–100)`            | 5  | **0.5595**       |
 | `Age`, `Annual Income (k$)`, `Spending Score (1–100)`     | 6  | 0.4235           |
 | `Gender`, `Annual Income (k$)`, `Spending Score (1–100)`  | 5  | 0.4121           |
 | `Age`, `Gender`, `Spending Score (1–100)`                 | 5  | 0.4772           |
 
----
 
 ## 📈 Visualizations
 
